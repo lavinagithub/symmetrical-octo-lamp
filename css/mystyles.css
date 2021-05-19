@@ -1,7 +1,19 @@
-.car_style{
-   
-    width: 50%;
+.car_style {
+  width: 50%;
 }
-.form_style{
-    background-color: rgb(213, 242, 253);
+.form_style {
+  background-color: rgb(213, 242, 253);
+}
+.mainheading{
+    text-align: center;
+    font-size:4rem;
+    color:teal
+}
+.card-img-top {
+/*  
+ border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%; */
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+   border-bottom-left-radius: 20%;
 }
