@@ -1,0 +1,82 @@
+body {
+  /* background-color: rgb(243, 218, 208); */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(192, 78, 78);
+}
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(192, 78, 78);
+}
+.outercontainer {
+  /* border: 2px solid grey; */
+  border-radius: 20px;
+  margin: auto;
+  /* font-size: 2rem; */
+   font-family: 'Comorant', serif;
+        font-size: 20px;
+  width: 60%;
+  padding: 2rem;
+
+  background-color: rgb(245, 221, 212);
+}
+
+.section_left {
+  background-image: url("./../images/pebbles.jpg");
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  padding: 10px;
+}
+
+.section_right {
+  padding-left: 30px;
+}
+label {
+  /* border: 2px solid grey; */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 300px;
+  display: block;
+  margin-top: 15px;
+    color: rgb(192, 78, 78);
+}
+
+.inputbox {
+  width: 100%;
+  height: 1.5rem;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  
+  padding: 5px;
+}
+
+.hobbies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.address {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.addr {
+  width: 50%;
+}
+.buttonContainer{
+    text-align: center;
+}
+.formButton{
+    background-color:rgb(192, 78, 78);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top:5px;
+}

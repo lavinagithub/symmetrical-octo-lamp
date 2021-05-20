@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Comorant"
+    />
+    <link rel="stylesheet" href="./css/formstyle.css" />
+  </head>
+  <body>
+    <h1>REGISTRATION FORM</h1>
+    <div class="outercontainer">
+      <section class="section_right">
+        <form name="registration_form">
+          <div>
+            <label for="firstName">First Name</label>
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              class="inputbox"
+              placeholder="Enter your First Name"
+            />
+          </div>
+          <div>
+            <label for="lastName">Last Name</label>
+            <input
+              type="text"
+              name="lastName"
+              id="lastName"
+              class="inputbox"
+              placeholder="Enter your Last Name"
+            />
+          </div>
+          <div>
+            <label for="userEmail">Email</label>
+            <input
+              type="email"
+              name="userEmail"
+              id="userEmail"
+              class="inputbox"
+              placeholder="Enter your Email"
+            />
+          </div>
+          <div>
+            <label for="userDob">Date of Birth</label>
+            <input
+              type="date"
+              name="userDob"
+              id="userDob"
+              class="inputbox"
+              placeholder="Enter your Email"
+            />
+          </div>
+          <div>
+            <fieldset>
+              <legend>Address:</legend>
+              <div class="address">
+                <div>
+                  <label for="userStreet">Street</label>
+                  <input
+                    type="text"
+                    name="userStreet"
+                    id="userStreet"
+                    class="inputbox addr"
+                    placeholder="Enter your Street Name"
+                  />
+                </div>
+                <div>
+                  <label for="userSuburb">Suburb</label>
+                  <input
+                    type="text"
+                    name="userSuburb"
+                    id="userSuburb"
+                    class="inputbox addr"
+                    placeholder="Enter your Suburb Name"
+                  />
+                </div>
+
+                <div>
+                  <label for="userSuburb">State</label>
+                  <input
+                    type="text"
+                    name="userSuburb"
+                    id="userSuburb"
+                    class="inputbox addr"
+                    placeholder="Enter your Suburb Name"
+                  />
+                </div>
+                <div>
+                  <label for="userSuburb">Country</label>
+                  <input
+                    type="text"
+                    name="userSuburb"
+                    id="userSuburb"
+                    class="inputbox addr"
+                    placeholder="Enter your Suburb Name"
+                  />
+                </div>
+
+                <div>
+                  <label for="userPostcode">Post Code </label>
+                  <input
+                    type="number"
+                    name="userPostcode"
+                    id="userPostcode"
+                    class="inputbox addr"
+                    placeholder="Enter your PostCode"
+                  />
+                </div>
+              </div>
+            </fieldset>
+          </div>
+          <div>
+            <label for="userTel">Phone</label>
+            <input
+              type="tel"
+              name="userTel"
+              id="userTel"
+              class="inputbox"
+              placeholder="Enter your Phone number"
+            />
+          </div>
+
+          <div>
+            <label for="userGender">Gender</label>
+            <select name="userGender" id="userGender">
+              <option value="male">Select</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div>
+            <label for="userbusiness">Area of Business</label>
+            <div class="hobbies">
+              <div><input type="radio" name="userbusiness" /> Events</div>
+              <div><input type="radio" name="userbusiness" /> Tourism</div>
+              <div>
+                <input type="radio" name="userbusiness" /> Film and Media
+              </div>
+              <div><input type="radio" name="userbusiness" /> Personal</div>
+              <div><input type="radio" name="userbusiness" /> Test</div>
+              <div><input type="radio" name="userbusiness" /> Test</div>
+            </div>
+
+            <div>
+              <label for="userFile">File</label>
+              <input
+                type="file"
+                name="userFile"
+                id="userFile"
+                class="inputbox"
+                placeholder="Click to Upload"
+              />
+            </div>
+
+            <div>
+              <input
+                type="checkbox"
+                name="userTC"
+                id="userTC"
+                class="checkbox"
+                placeholder="Pick a Colour"
+                style="float: left"
+              />
+              <label for="userTC">I agree to the Terms and Conditions </label>
+            </div>
+
+            <div class="buttonContainer">
+              <input type="submit" class="formButton" />
+              <input type="reset" class="formButton" />
+            </div>
+          </div>
+        </form>
+      </section>
+    </div>
+    <footer class="container text-center mt-5">
+      Copyright ©LL. All rights reserved 2021
+    </footer>
+  </body>
+</html>
