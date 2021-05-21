@@ -31,3 +31,11 @@ label {
   border-radius: 5px;
   padding: 5px;
 }
+/* .addr {
+  width: 50%;
+} */
+.addressContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

@@ -11,7 +11,7 @@
     <h1>Register to Partner with us</h1>
     <!-- Outer section begins -->
     <section class="outerContainer">
-      <form name="registration_form" method="POST">
+      <form name="registration_form" method="POST" action="thankyou.html">
         <!-- First name -->
         <label for="firstName">First Name</label>
         <input
@@ -59,6 +59,89 @@
           class="form_input"
           placeholder="Enter your DOB"
         />
+
+        <div>
+          <fieldset>
+            <legend>Address:</legend>
+            <div class="addressContainer">
+              <div>
+                <label for="userStreet">Street</label>
+                <input
+                  type="text"
+                  name="userStreet"
+                  id="userStreet"
+                  class="form_input addr"
+                  placeholder="Enter your Street Name"
+                />
+              </div>
+              <div>
+                <label for="userSuburb">Suburb</label>
+                <input
+                  type="text"
+                  name="userSuburb"
+                  id="userSuburb"
+                  class="form_input addr"
+                  placeholder="Enter your Suburb Name"
+                />
+              </div>
+
+              <div>
+                <label for="userSuburb">State</label>
+                <input
+                  type="text"
+                  name="userSuburb"
+                  id="userSuburb"
+                  class="form_input addr"
+                  placeholder="Enter your Suburb Name"
+                />
+              </div>
+              <div>
+                <label for="userSuburb">Country</label>
+                <input
+                  type="text"
+                  name="userSuburb"
+                  id="userSuburb"
+                  class="form_input addr"
+                  placeholder="Enter your Suburb Name"
+                />
+              </div>
+
+              <div>
+                <label for="userPostcode">Post Code </label>
+                <input
+                  type="number"
+                  name="userPostcode"
+                  id="userPostcode"
+                  class="form_input addr"
+                  placeholder="Enter your PostCode"
+                />
+              </div>
+            </div>
+          </fieldset>
+        </div>
+        <label for="gender">Gender</label>
+        <select>
+          <option value="">Select</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+
+        <label for="business">Type of Business</label>
+        <input type="radio" name="business" /> Events
+        <input type="radio" name="business" /> Film and Media
+        <input type="radio" name="business" /> Entertainment
+        <input type="radio" name="business" /> Tourism
+
+        <label for="userFile">File</label>
+        <input type="file" name="userFile" id="userFile" />
+
+        <br />
+        <input type="checkbox" name="userTC" id="userTC" style="float: left" />
+        <label for="userTC">I agree to the Terms and conditions</label>
+
+        <input type="submit" />
+        <input type="reset" />
       </form>
     </section>
     <!-- outer section ends -->
