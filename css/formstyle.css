@@ -79,6 +79,7 @@ label {
   display: inline-block;
   font-size: 16px;
   margin-top: 5px;
+  display: block;
 }
 
 fieldset {

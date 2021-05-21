@@ -86,23 +86,24 @@
               </div>
 
               <div>
-                <label for="userSuburb">State</label>
-                <input
-                  type="text"
-                  name="userSuburb"
-                  id="userSuburb"
-                  class="form_input addr"
-                  placeholder="Enter your Suburb Name"
-                />
+                <label for="userState">State</label>
+                <select name="userState" class="form_input sel">
+                  <option value="">Select a State</option>
+                  <option value="NSW">NSW</option>
+                  <option value="VIC">VIC</option>
+                  <option value="SA">SA</option>
+                  <option value="SA">QLD</option>
+                  <option value="TAS">TAS</option>
+                </select>
               </div>
               <div>
-                <label for="userSuburb">Country</label>
+                <label for="userCountry">Country</label>
                 <input
                   type="text"
-                  name="userSuburb"
-                  id="userSuburb"
+                  name="userCountry"
+                  id="userCountry"
                   class="form_input addr"
-                  placeholder="Enter your Suburb Name"
+                  placeholder="Enter your Country Name"
                 />
               </div>
 
@@ -120,7 +121,7 @@
           </fieldset>
         </div>
         <label for="gender">Gender</label>
-        <select>
+        <select name="userGender" class="form_input sel">
           <option value="">Select</option>
           <option value="male">Male</option>
           <option value="female">Female</option>
@@ -134,14 +135,21 @@
         <input type="radio" name="business" /> Tourism
 
         <label for="userFile">File</label>
-        <input type="file" name="userFile" id="userFile" />
+        <input type="file" name="userFile" id="userFile" class="form_input" />
 
-        <br />
-        <input type="checkbox" name="userTC" id="userTC" style="float: left" />
-        <label for="userTC">I agree to the Terms and conditions</label>
+        <input
+          type="checkbox"
+          name="userTC"
+          id="userTC"
+          class="tc"
+          class="form_input"
+        />
+        I agree to the Terms and conditions
 
-        <input type="submit" />
-        <input type="reset" />
+        <div>
+          <input type="submit" class="formButton" />
+          <input type="reset" class="formButton" />
+        </div>
       </form>
     </section>
     <!-- outer section ends -->
