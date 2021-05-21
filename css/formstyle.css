@@ -1,20 +1,20 @@
 body {
   /* background-color: rgb(243, 218, 208); */
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: rgb(192, 78, 78);
 }
 h1 {
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(192, 78, 78);
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(192, 78, 78);
 }
 .outercontainer {
   /* border: 2px solid grey; */
   border-radius: 20px;
   margin: auto;
   /* font-size: 2rem; */
-   font-family: 'Comorant', serif;
-        font-size: 20px;
+  font-family: "Comorant", serif;
+  font-size: 20px;
   width: 60%;
   padding: 2rem;
 
@@ -40,7 +40,7 @@ label {
   width: 300px;
   display: block;
   margin-top: 15px;
-    color: rgb(192, 78, 78);
+  color: rgb(192, 78, 78);
 }
 
 .inputbox {
@@ -48,11 +48,11 @@ label {
   height: 1.5rem;
   border: 1px solid lightgrey;
   border-radius: 5px;
-  
+
   padding: 5px;
 }
 
-.hobbies {
+.business {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -66,11 +66,11 @@ label {
 .addr {
   width: 50%;
 }
-.buttonContainer{
-    text-align: center;
+.buttonContainer {
+  text-align: center;
 }
-.formButton{
-    background-color:rgb(192, 78, 78);
+.formButton {
+  background-color: rgb(192, 78, 78);
   border: none;
   color: white;
   padding: 15px 32px;
@@ -78,5 +78,9 @@ label {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin-top:5px;
+  margin-top: 5px;
+}
+
+fieldset {
+  min-width: 100%;
 }

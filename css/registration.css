@@ -1,0 +1,33 @@
+body {
+  /* background-color: rosybrown; */
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(182, 92, 82);
+}
+
+.outerContainer {
+  border: 2px solid rgb(143, 54, 54);
+  margin: auto;
+  width: 60%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+label {
+  color: rgb(182, 92, 82);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  display: block;
+  margin-top: 10px;
+}
+.form_input {
+  width: 70%;
+  height: 1.5rem;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 5px;
+}
