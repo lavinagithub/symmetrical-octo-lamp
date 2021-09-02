@@ -18,11 +18,13 @@
   </head>
   <body>
     <!-- Nav starts here  -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img src="./images/logo.png" style="height: 50px"
-        /></a>
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <!-- <img src="./images/logo.png" style="height: 50px"
+        /> -->
+          <span class="logo">V C</span>
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -32,24 +34,38 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span
+            class="navbar-toggler-icon"
+            style="background-color: black"
+          ></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
+          <div class="navbar-nav ms-auto">
             <a class="nav-link active" aria-current="page" href="#cars">Cars</a>
             <a class="nav-link" href="#enq">Enquiries</a>
             <a class="nav-link" href="#contact">Contact</a>
-            <a class="nav-link" target="new" href="./registration.html"
+            <a class="nav-link" href="#testimonials">Testimonials</a>
+            <!-- <a class="nav-link" target="new" href="./registration.html"
               >Partner with us</a
-            >
+            > -->
           </div>
         </div>
       </div>
     </nav>
     <!-- Nav ends here  -->
-    <h1 class="mainheading">VINTAGE CARS FOR HIRE</h1>
+
+    <!-- header image -->
+    <!-- <div
+      style="
+        background-image: url('./images/headerx.jpeg');
+        background-repeat: repeat-x;
+        height: 200px;
+      ">
+    </div> -->
+    <!-- end header image -->
+    <h1 class="mainheading">Vintage Cars for Hire</h1>
     <!-- Cards -->
-    <div class="container mt-5" id="cars">
+    <section class="container mt-5" id="cars">
       <h4>Car Listings</h4>
       <div class="row row-cols-1 row-cols-md-4 g-4">
         <div class="col">
@@ -101,16 +117,19 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- End Cards -->
-    <div class="container mt-5 form_style" id="enq">
+
+    <section class="container mt-5 form_style" id="enq">
       <h4>Enquire about a car</h4>
+      <br />
       <form>
         <div class="mb-3">
           <label for="fullname" class="form-label">Full Name</label>
           <input
             type="text"
+            placeholder="Enter your full name"
             class="form-control"
             id="fullname"
             aria-describedby="fullnameHelp"
@@ -120,6 +139,7 @@
           >
           <input
             type="email"
+            placeholder="Enter your email address"
             class="form-control"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
@@ -127,7 +147,7 @@
 
           <label for="selectCar" class="form-label">Choose a car</label>
           <select class="form-select" aria-label="Default select example">
-            <option selected>Open this select menu</option>
+            <option selected>Select a Car</option>
             <option value="1">Vintage Teal</option>
             <option value="2">Vintage Yellow</option>
             <option value="3">Vintage Red</option>
@@ -141,35 +161,89 @@
               class="form-control"
               id="exampleFormControlTextarea1"
               rows="3"
+              placeholder="Enter your comments"
             ></textarea>
           </div>
           <br />
           <button type="submit" class="btn btn-primary">Submit</button>
         </div>
       </form>
-    </div>
+    </section>
 
     <!--Contact-->
-    <div class="container mt-5" id="contact">
-      <h4>Contact</h4>
-      Address: 27 Carlisle Street, Earlston, VIC 3669 <br />
-      Phone: XXXX0000 <br />
-      Email: xxxx@xxx.com<br />
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.522279411162!2d151.20380431547628!3d-33.876200526875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae3cf27201d1%3A0x86e9c7979bb55c7d!2s3%20Wise%20Monkeys!5e0!3m2!1sen!2sau!4v1621224003938!5m2!1sen!2sau"
-        width="400"
-        height="300"
-        style="border: 2px solid black"
-        allowfullscreen=""
-        loading="lazy"
-      ></iframe>
-    </div>
-    <!--contact-->
-    <div class="position-relative">
-      <div class="position-absolute bottom-0 end-0">
-        <a href="#cars">Back to top</a>
+    <section class="container mt-5">
+      <div class="row">
+        <div class="col">
+          <!-- contact address  -->
+          <div class="container mt-5 contact" id="contact">
+            <h4>Contact</h4>
+            Address: 27 Carlisle Street, Earlston, VIC 3669 <br />
+            Phone: XXXX0000 <br />
+            Email: xxxx@xxx.com<br />
+          </div>
+
+          <!-- end contact address  -->
+        </div>
+        <div class="col">
+          <!-- start google maps -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.522279411162!2d151.20380431547628!3d-33.876200526875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae3cf27201d1%3A0x86e9c7979bb55c7d!2s3%20Wise%20Monkeys!5e0!3m2!1sen!2sau!4v1621224003938!5m2!1sen!2sau"
+            width="400"
+            height="300"
+            style="border: 2px solid black"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+          <!-- end google maps  -->
+        </div>
       </div>
-    </div>
+    </section>
+    <!--contact-->
+
+    <!--Testimonials-->
+    <section class="mt-5 testimonials" id="testimonials">
+      <h4>Testimonials</h4>
+      <hr />
+      <div class="row">
+        <div class="col-sm-10">
+          <blockquote>
+            "Best hire ever. My birthday would not be as fun without the
+            services of VC cars. They are the absolute best" - Kendell Jenner
+          </blockquote>
+        </div>
+        <div class="col-sm-2">
+          <img
+            src="./images/kendell.jpg"
+            class="testimg"
+            alt="Kendell Jenner"
+          />
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-sm-2">
+          <img
+            src="./images/dadvintage.jpeg"
+            class="testimg"
+            alt="Dad in vintage car"
+          />
+        </div>
+        <div class="col-sm-10">
+          <blockquote>
+            "Gifted my dad a joy ride in one of these. He had the best day of
+            his life" - John Doe
+          </blockquote>
+        </div>
+      </div>
+      <hr />
+    </section>
+    <!-- End Testimonials -->
+
+    <!-- back to top link  -->
+    <p class="text-end">
+      <a href="#navbar">Back to top</a>
+    </p>
+    <!-- end back to top link  -->
 
     <footer class="container text-center mt-5">
       Copyright ©LL. All rights reserved 2021

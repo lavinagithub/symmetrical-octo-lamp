@@ -1,19 +1,84 @@
+/* body {
+  background-color: rgb(244, 174, 62);
+} */
+.navbar{
+  background-color: rgb(6, 94, 94);
+}
+.mainheading {
+  text-align: center;
+  font-size: 3em;
+  color: teal;
+  font-family: Luminari;
+  /* font-size: 100px; */
+}
+h4 {
+  font-family: Luminari;
+  color: teal;
+  font-weight: bold;
+}
+
+.logo {
+  font-family: Luminari;
+  color: #951b17;
+  font-size: 2rem;
+  text-shadow: 1px 1px 1px rgb(164, 155, 155), 3px 3px 5px;
+  background-color: white;
+  border-radius: 50%;
+  padding:10px;
+}
+.nav-link {
+  font-size: x-large;
+  color: white;
+}
+.nav-link a:link {
+  font-size: x-large;
+  color: teal;
+}
+.nav-link a:visited,
+a:hover {
+  font-size: x-large;
+  color: rgb(230, 198, 70) !important;
+}
 .car_style {
   width: 50%;
 }
 .form_style {
-  background-color: rgb(222, 228, 230);
+  /* background-color: rgb(222, 228, 230); */
+  /* background-color: rgb(180, 226, 227); */
+  border:2px solid lightgrey;
+  padding: 20px;
+  font-size: 1.25em;
 }
-.mainheading{
-    text-align: center;
-    font-size:4rem;
-    color:teal
+.form-label {
+  margin: 5px;
 }
-.card-img-top {
-/*  
+
+.card-img-top,
+.card {
+  /*  
  border-top-left-radius: 20%;
   border-bottom-right-radius: 20%; */
   border-top-left-radius: 10%;
   border-top-right-radius: 10%;
-   border-bottom-left-radius: 20%;
+  border-bottom-left-radius: 20%;
+}
+
+.testimonials{
+  background-color: rgb(118, 166, 167);
+  width: 100%;
+  margin: auto;
+  padding:20px;
+
+}
+.testimg{
+  height:300px;
+  width:300px;
+  border-radius: 50%;
+  border:7px solid teal
+}
+blockquote{
+font-family: fantasy;
+  font-size:30px;
+  font-weight: bold;
+
 }
